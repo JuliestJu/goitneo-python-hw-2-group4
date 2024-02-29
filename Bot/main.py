@@ -1,6 +1,8 @@
 from assistant_bot import AssistantBot
 
-#Task2
+# Task2
+
+
 def main():
     bot = AssistantBot()
     print("Welcome to the assistant bot!")
@@ -23,6 +25,7 @@ def main():
             print(bot.display_all_contacts())
         else:
             print("Invalid command.")
+
 
 if __name__ == "__main__":
     main()
